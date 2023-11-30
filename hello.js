@@ -1,8 +1,8 @@
 const Hello = (app) => {
-    app.get('/hello', (req, res) => {
+    app.get('/api/hello', (req, res) => {
         res.send('Life is good!')
     })
-    app.get('/', (req, res) => {
+    app.get('/api', (req, res) => {
         res.send('Welcome to Full Stack Development!')
     })
 }
